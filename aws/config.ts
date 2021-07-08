@@ -71,3 +71,5 @@ export const operatorNamespace = config.get<string>("operator-namespace") || Lig
 export const installMetricsServer = getBooleanOrDefault("install-metrics-server", true);
 export const deployKafkaCluster = getBooleanOrDefault("deploy-kafka-cluster", true);
 export const deployJdbcDatabase = getBooleanOrDefault("deploy-jdbc-database", true);
+
+export const installTelemetryServices = getBooleanOrDefault("install-telemetry-services", true);
